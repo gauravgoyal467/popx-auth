@@ -1,0 +1,27 @@
+.form-group{
+    padding:10px;
+    border:1px solid #CBCBCB;
+    border-radius: 6px;
+    width:300px;
+    position:relative;
+   
+  }
+  .form-group>label{
+    position:absolute;
+    top: -8px;
+    left:10px;
+    background-color:#F7F8F9;
+    color:#6C25FF;
+    font-size: 13px;
+  }
+  .required>label:after{
+    content:"*";
+    color:#DD4A3D;
+  }
+  
+  .form-group>input{
+    border:none;
+    outline:none;
+    background-color:#F7F8F9;
+    color:#1D2226;
+  }

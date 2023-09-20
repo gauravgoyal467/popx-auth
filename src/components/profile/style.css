@@ -1,0 +1,62 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f8f9;
+  gap: 17px;
+}
+.top-section {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000007;
+  width: 100%;
+  padding: 25px 15px;
+  box-sizing: border-box;
+}
+.top-section p {
+  font-size: 18px;
+  color: #1d2226;
+  text-transform: capitalize;
+}
+.bottom-section{
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:20px;
+  gap:25px;
+
+}
+.bottom-section p{
+    color:#1D2226;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.top{
+    display: flex;
+    gap:10px;
+}
+.image{
+    position: relative;
+}
+.cam{
+    position: absolute;
+    top:52px;
+    right:-2px;
+}
+.intro h3{
+ font-size: 15px;
+
+}
+.intro p{
+    font-size: 14px;
+}
+.dashed{
+    height:50vh;
+    width:100%;
+    border-top:1px dashed #CBCBCB;
+    border-bottom:1px dashed #CBCBCB;
+}

@@ -1,0 +1,72 @@
+.signUp-container{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    text-align: left;
+    height:100vh;
+    padding:30px 20px;
+    background-color: #F7F8F9;
+}
+.signUp-container h1{
+    font-size: 28px;
+    font-weight: medium;
+}
+.firstContainer{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: left;
+    gap:25px;
+}
+input[type="radio"]{
+    -webkit-transform: scale(1.5);
+   
+}
+.radio{
+    position: relative;
+}
+.radio label:first-of-type{
+    position:relative;    
+    font-size: 17px;
+    top:10px;
+    left:18px;
+}
+.radio label:nth-of-type(2){
+    position:relative;
+    font-size: 17px;
+    top:10px;
+    left:70px;
+}
+#yes{
+    position:relative;
+    top:12px;
+    font-size: 17px;
+    accent-color:#6C25FF;
+}
+#no{
+    position:relative;
+    top:12px;
+    left:50px;
+    accent-color:#6C25FF;
+}
+.req{
+    font-size: 13px;
+}
+.req:after{
+    content:"*";
+    color:#DD4A3D;
+}
+.btn{
+    padding:15px;
+    width:310px;
+    border-radius: 6px;
+    text-align: center;
+    font-size:17px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.sign-btn{
+    background-color:#6C25FF;
+    color:#FFFFFF;
+}
